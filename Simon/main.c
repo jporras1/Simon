@@ -4,7 +4,8 @@
 #include <util/delay.h>
 
 void initIO(void) {
-	
+    DDRB |= (1 << 0);
+    PORTB |= (1 << 0);
 }
 
 int main(void) {
