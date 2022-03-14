@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3B7675C927DD27FF0003A06D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B7675B227DD19030003A06D /* main.c */; };
+		3B7675CC27DD52B30003A06D /* nuts_bolts.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B7675CB27DD52B30003A06D /* nuts_bolts.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B7675AF27DD19030003A06D /* Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Index; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7675B227DD19030003A06D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3B7675B527DD19030003A06D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Makefile; path = Simon/Makefile; sourceTree = "<group>"; };
+		3B7675CA27DD52B30003A06D /* nuts_bolts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nuts_bolts.h; sourceTree = "<group>"; };
+		3B7675CB27DD52B30003A06D /* nuts_bolts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nuts_bolts.c; sourceTree = "<group>"; };
+		3B7675CD27DD53A30003A06D /* simon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -37,6 +41,9 @@
 			isa = PBXGroup;
 			children = (
 				3B7675B227DD19030003A06D /* main.c */,
+				3B7675CD27DD53A30003A06D /* simon.h */,
+				3B7675CA27DD52B30003A06D /* nuts_bolts.h */,
+				3B7675CB27DD52B30003A06D /* nuts_bolts.c */,
 				3B7675B427DD19030003A06D /* Makefiles */,
 			);
 			path = Simon;
@@ -177,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7675CC27DD52B30003A06D /* nuts_bolts.c in Sources */,
 				3B7675C927DD27FF0003A06D /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
